@@ -1,4 +1,7 @@
-FROM java:8-jdk
+
+# Pull base image.
+FROM melinite/oracle-java8-jdk
+
 MAINTAINER dimkk
 
 # Installs Ant
